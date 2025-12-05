@@ -1,0 +1,5 @@
+{
+  "name": "작은성공todo",
+  "description": "A dark-themed mobile to-do app focusing on small daily successes. Features a calendar view and high-contrast completion states.",
+  "requestFramePermissions": []
+}

@@ -57,7 +57,7 @@ const TodoView: React.FC<TodoViewProps> = ({ dateStr, todos, onBack, onUpdateTod
   return (
     <div className="flex flex-col h-full bg-background animate-slide-up">
       {/* Header */}
-      <div className="p-6 pb-2 flex items-center justify-between sticky top-0 bg-background/80 backdrop-blur-md z-10">
+      <div className="p-6 pb-2 flex items-center justify-between bg-background/80 backdrop-blur-md z-10">
         <button 
           onClick={onBack}
           className="p-2 -ml-2 rounded-full text-muted hover:text-white hover:bg-white/10 transition-colors"
@@ -133,7 +133,7 @@ const TodoView: React.FC<TodoViewProps> = ({ dateStr, todos, onBack, onUpdateTod
       </div>
 
       {/* Input Area */}
-      <div className="p-6 bg-background sticky bottom-0 z-20">
+      <div className="p-6 bg-background z-20">
         <div className="flex gap-2 mb-2 justify-end">
             <button 
                 onClick={handleSuggestion}

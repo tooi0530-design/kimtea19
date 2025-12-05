@@ -53,7 +53,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-background text-white font-sans selection:bg-white/20 selection:text-white overflow-hidden max-w-md mx-auto relative shadow-2xl">
       {/* Mobile Frame Simulation Container (centered on desktop, full on mobile) */}
-      <div className="h-screen flex flex-col relative">
+      <div className="h-[100dvh] flex flex-col relative">
         {view === 'CALENDAR' ? (
           <CalendarView 
             onSelectDate={handleSelectDate} 
